@@ -17,6 +17,7 @@ function currentLine(line) {
     return ("The line is currently empty.")
   } else {
     var i = 0
+    var output = []
     while (i++ < line.length) {
       var output =+ [i + 1] + '. ' + line[i]
     }
