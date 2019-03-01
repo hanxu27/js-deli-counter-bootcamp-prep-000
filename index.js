@@ -22,5 +22,5 @@ function currentLine(line) {
       output[0] = [i + 1] + '. ' + line[i]
     }
   }
-  return (`The line is currently ${output}`)
+  return (`The line is currently: ${output}`)
 }
