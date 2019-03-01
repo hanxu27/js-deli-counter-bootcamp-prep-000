@@ -8,9 +8,7 @@ function nowServing(line) {
   if (line.length === 0) {
     return ("There is nobody waiting to be served!")
   } else {
-    var clone = line.slice(0)
-    line = line.slice(1)
-    return (`Currently serving ${clone[0]}.`)
+    return (`Currently serving ${line.shift()}`)
   }
 }
 
