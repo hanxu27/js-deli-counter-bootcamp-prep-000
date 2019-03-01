@@ -8,8 +8,9 @@ function nowServing(line) {
   if (line.length === 0) {
     return ("There is nobody waiting to be served!")
   } else {
-    clone = 
-    return (`Currently serving ${line[0]}.`)
+    clone = line.slice(0)
+    line = line.slice(1)
+    return (`Currently serving ${clone[0]}.`)
   }
 }
 
