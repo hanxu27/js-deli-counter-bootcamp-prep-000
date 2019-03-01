@@ -10,5 +10,4 @@ function nowServing(line) {
   } else {
     return (`currently serving ${line[0]}.`)
   }
-  
 }
