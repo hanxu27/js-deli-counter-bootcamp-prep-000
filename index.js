@@ -19,7 +19,7 @@ function currentLine(line) {
     var i = 0
     var output = []
     while (i < line.length) {
-      output[0] = [i + 1] + '. ' + line[i]
+      output[i] = [i + 1] + '. ' + line[i]
       i++
     }
   }
