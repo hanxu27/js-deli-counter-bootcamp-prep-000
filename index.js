@@ -11,3 +11,13 @@ function nowServing(line) {
     return (`Currently serving ${line[0]}.`)
   }
 }
+
+function currentLine(line) {
+  if (line.length === 0) {
+    return ("The line is currently empty")
+  } else {
+    while (i++ < line.length) {
+      var str = con 
+    }
+  }
+}
